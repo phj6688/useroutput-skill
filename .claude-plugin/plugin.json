@@ -1,0 +1,14 @@
+{
+  "name": "useroutput",
+  "version": "0.1.0",
+  "description": "Writing standard for every human-facing reply: structure, ASD-STE100 controlled language, and voice, so answers stay short, plain, and honest.",
+  "author": {
+    "name": "Peyman",
+    "email": "peyman.h.j@gmail.com"
+  },
+  "repository": "https://github.com/phj6688/useroutput-skill",
+  "license": "MIT",
+  "homepage": "https://github.com/phj6688/useroutput-skill",
+  "keywords": ["writing", "communication", "ste100", "plain-language", "claude-code", "skill"],
+  "skills": "./skills/"
+}
