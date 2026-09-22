@@ -71,7 +71,10 @@ The rules follow ASD-STE100, the controlled English standard for technical docum
 14. Use a vertical list when you give more than two steps or more than two conditions.
 15. Do not use slang, idiom, or metaphor. Write "The build failed", not "the build blew up".
 16. Do not put a parenthesis inside a sentence. If the content matters, give it a sentence. If it does not matter, cut it.
-
+17. When you describe a problem, write it as a chain in this order: what is wrong, why, what the problem blocks, what to do. One sentence per link. Do not compress the chain into a noun phrase.
+18. Name a project-internal thing in plain words on first use, then use the short term. "The reference labels, the gold set" is right. "The gold set" alone is not. Stack terms (container, endpoint, calibration) need no plain words.
+19. Do not write "the path", "the choice", "the decision", or "the option" before you state the options.
+20. When the business and the code use different words for one thing, pick the business word for the reply and use it every time.
 ### Domain adaptation
 
 - The reader is a senior engineer. Use the precise term from the user's stack without explanation: container, migration, endpoint, gold set, calibration, and similar words. Explain a term only when the user asks.
